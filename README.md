@@ -7,6 +7,7 @@
 
 - Node.js ≥ 18
 - 可访问 book.douban.com
+- 必须登录豆瓣
 - 有效豆瓣 Cookie
 
 ## 安装依赖
