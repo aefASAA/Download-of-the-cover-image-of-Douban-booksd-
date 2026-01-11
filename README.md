@@ -38,17 +38,16 @@ module.exports = { parseSQLData };
 
 ## 使用方式
 
-### 预演（不下载，推荐）
-
-```bash
-node downloadDoubanCovers_final_with_id.js --dry-run --verbose
+```
+注意该脚本必须与dataParser.js文件在同一文件夹中，dataParser.js文件夹用于存储需要下载的图书
 ```
 
 ### 正式下载
 
-```bash
-node downloadDoubanCovers_final_with_id.js
 ```
+node downloadDoubanCovers_final_with_id_fixed.js --data "./dataParser.js" --out "./covers" --start-id 1 --end-id 10 --verbose --delay 4000
+```
+建议单次最大为10本，id为编号使用
 
 ## 常用参数
 
